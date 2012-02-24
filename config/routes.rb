@@ -1,4 +1,8 @@
 BookrRails3::Application.routes.draw do
+  resources :library_cards
+
+  resources :items
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

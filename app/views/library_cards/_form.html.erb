@@ -1,0 +1,29 @@
+<%= form_for(@library_card) do |f| %>
+  <% if @library_card.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@library_card.errors.count, "error") %> prohibited this library_card from being saved:</h2>
+
+      <ul>
+      <% @library_card.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :user_id %><br />
+    <%= f.number_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :number %><br />
+    <%= f.text_field :number %>
+  </div>
+  <div class="field">
+    <%= f.label :zip_code %><br />
+    <%= f.text_field :zip_code %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

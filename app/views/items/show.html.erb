@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @item.title %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @item.type %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @item.status_id %>
+</p>
+
+<p>
+  <b>Checkout date:</b>
+  <%= @item.checkout_date %>
+</p>
+
+<p>
+  <b>Due date:</b>
+  <%= @item.due_date %>
+</p>
+
+<p>
+  <b>Library card:</b>
+  <%= @item.library_card_id %>
+</p>
+
+<p>
+  <b>Pickup by:</b>
+  <%= @item.pickup_by %>
+</p>
+
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>

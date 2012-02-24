@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  type: 
+  status_id: 1
+  checkout_date: 1
+  due_date: 1
+  library_card_id: 1
+  pickup_by: 2012-02-21
+
+two:
+  title: MyString
+  type: 
+  status_id: 1
+  checkout_date: 1
+  due_date: 1
+  library_card_id: 1
+  pickup_by: 2012-02-21
