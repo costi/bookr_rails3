@@ -33,6 +33,7 @@ gem 'unicorn'
 gem 'execjs'
 gem 'therubyracer'
 gem 'book_worm'
+gem 'authlogic'
 
 group :test do
   # Pretty printed test output
